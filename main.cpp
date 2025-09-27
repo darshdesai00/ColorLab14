@@ -30,9 +30,31 @@ public:
 };
 
 int main() {
-    cout << "Color Lab in progress..." << endl;
+    cout << "Color values:\n\n";
 
-    // TODO: create Color objects and print them
+    // first color
+    Color c1;
+    c1.setRed(255);
+    c1.setGreen(0);
+    c1.setBlue(0);
+    c1.print();
+    cout << endl;
+
+    // second color
+    Color c2;
+    c2.setRed(0);
+    c2.setGreen(255);
+    c2.setBlue(0);
+    c2.print();
+    cout << endl;
+
+    // third color
+    Color c3;
+    c3.setRed(0);
+    c3.setGreen(0);
+    c3.setBlue(255);
+    c3.print();
+    cout << endl;
 
     return 0;
 }
